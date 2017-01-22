@@ -1,0 +1,74 @@
+0000.003 () Opened log file at time: Sun, 22 Jan 2017 04:11:37 +0000 on http://54.83.186.82
+0000.004 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.30 WP: 4.7.1 PHP: 5.4.16 (apache2handler, Linux ip-172-31-18-70.ec2.internal 3.10.0-327.10.1.el7.x86_64 #1 SMP Tue Feb 16 17:03:50 UTC 2016 x86_64) MySQL: 5.5.52 WPLANG: en_US Server: Apache/2.4.6 (CentOS) PHP/5.4.16 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 23.2M | 23.8M) multisite: N openssl: OpenSSL 1.0.1e-fips 11 Feb 2013 mcrypt: N LANG: C ZipArchive::addFile: Y
+0000.004 () Free space on disk containing Updraft's temporary directory: 6903.3 MB
+0000.005 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"updraft_restorer_replacesiteurl":false,"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false}
+0000.021 () Entity: db
+0000.021 () restore_backup(backup_file=backup_2017-01-10-2042_Samurai_Tech_Corp_dede33d0a5e5-db.gz, type=db, info=a:0:{}, last_one=)
+0000.021 () Unpacking backup... (backup_2017-01-10-2042_Samurai_Tech_Corp_dede33d0a5e5-db.gz, 0.9 Mb)
+0000.022 () Database successfully unpacked
+0000.022 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.022 () Using direct MySQL access; value of use_mysqli is: 0
+0000.027 () Max packet size: 32 MB
+0000.027 () Entering maintenance mode
+0000.027 () Enabling Maintenance mode&#8230;
+0000.028 () Backup of: http://54.236.87.96
+0000.042 () Content URL: http://54.236.87.96/wp-content
+0000.042 () Uploads URL: http://54.236.87.96/wp-content/uploads
+0000.043 () Old table prefix: wp_
+0000.043 () Site information: multisite=0
+0000.044 () New table prefix: wp_
+0000.047 () Processing table (InnoDB): wp_options
+0000.129 () Restoring prior UD configuration (table: wp_options; keys: 97)
+0000.347 () Elegant themes theme builder plugin data detected: resetting temporary folder
+0000.348 () Processing table (InnoDB): wp_users
+0000.356 () Processing table (InnoDB): wp_usermeta
+0000.383 () Processing table (InnoDB): wp_commentmeta
+0000.401 () Processing table (InnoDB): wp_comments
+0000.415 () Processing table (InnoDB): wp_links
+0000.421 () Processing table (InnoDB): wp_postmeta
+0000.618 () Processing table (InnoDB): wp_posts
+0001.423 () Database queries processed: 50 in 1.40 seconds
+0001.424 () Processing table (InnoDB): wp_term_relationships
+0001.451 () Processing table (InnoDB): wp_term_taxonomy
+0001.468 () Processing table (InnoDB): wp_termmeta
+0001.486 () Processing table (InnoDB): wp_terms
+0001.520 () Processing table (InnoDB): wp_wpdatacharts
+0001.532 () Processing table (InnoDB): wp_wpdatatables
+0001.540 () Processing table (InnoDB): wp_wpdatatables_columns
+0001.545 () Unlocking database and leaving maintenance mode
+0001.545 () Finished: lines processed: 71 in 1.52 seconds
+0001.546 () Cleaning up rubbish...
+0001.553 () Entity: plugins
+0001.553 () restore_backup(backup_file=backup_2017-01-10-2042_Samurai_Tech_Corp_dede33d0a5e5-plugins.zip, type=plugins, info=a:2:{s:4:"path";s:32:"/var/www/html/wp-content/plugins";s:11:"description";s:7:"Plugins";}, last_one=)
+0001.553 () Unpacking backup... (backup_2017-01-10-2042_Samurai_Tech_Corp_dede33d0a5e5-plugins.zip, 24 Mb)
+0002.657 () Moving old data: filesystem method / updraft_dir is potentially possible
+0002.657 () Moving old data: can potentially use wp_filesystem method / -old
+0002.657 () Moving old data out of the way...
+0002.717 () Top-level entities being moved: akismet, hello.php, index.php, updraftplus
+0002.720 () Moving unpacked backup into place...
+0003.012 () Top-level entities being moved: advanced-iframe, akismet, amcharts-charts-and-maps, backup-amazon-s3, bxslider-integration, display-posts-shortcode, divi-builder, divi_extended_column_layouts, dmlu_loggedin_menu, formstack, mega_main_menu, updraftplus, userpro, versionpress, wordpress-importer, wpdatatables, hello.php, index.php
+0003.024 () Cleaning up rubbish...
+0003.027 () Entity: themes
+0003.027 () restore_backup(backup_file=backup_2017-01-10-2042_Samurai_Tech_Corp_dede33d0a5e5-themes.zip, type=themes, info=a:2:{s:4:"path";s:31:"/var/www/html/wp-content/themes";s:11:"description";s:6:"Themes";}, last_one=)
+0003.028 () Unpacking backup... (backup_2017-01-10-2042_Samurai_Tech_Corp_dede33d0a5e5-themes.zip, 9 Mb)
+0003.262 () Moving old data: filesystem method / updraft_dir is potentially possible
+0003.262 () Moving old data: can potentially use wp_filesystem method / -old
+0003.262 () Moving old data out of the way...
+0003.364 () Top-level entities being moved: twentyfifteen, twentyseventeen, twentysixteen, index.php
+0003.364 () Moving unpacked backup into place...
+0003.399 () Top-level entities being moved: Divi, twentyfifteen, twentyseventeen, twentysixteen, index.php
+0003.400 () Cleaning up rubbish...
+0003.404 () Entity: uploads
+0003.404 () restore_backup(backup_file=backup_2017-01-10-2042_Samurai_Tech_Corp_dede33d0a5e5-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:32:"/var/www/html/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0003.404 () Unpacking backup... (backup_2017-01-10-2042_Samurai_Tech_Corp_dede33d0a5e5-uploads.zip, 10.9 Mb)
+0003.473 () Moving old data: filesystem method / updraft_dir is potentially possible
+0003.473 () Moving old data: can potentially use wp_filesystem method / -old
+0003.474 () Moving old data out of the way...
+0003.474 () Moving unpacked backup into place...
+0003.479 () Cleaning up rubbish...
+0003.482 () Entity: others
+0003.482 () restore_backup(backup_file=backup_2017-01-10-2042_Samurai_Tech_Corp_dede33d0a5e5-others.zip, type=others, info=a:2:{s:4:"path";s:24:"/var/www/html/wp-content";s:11:"description";s:6:"Others";}, last_one=1)
+0003.482 () Unpacking backup... (backup_2017-01-10-2042_Samurai_Tech_Corp_dede33d0a5e5-others.zip, 0 Mb)
+0003.482 () Cleaning up rubbish...
+0003.498 () Restore successful!
+0003.498 () Restore successful
