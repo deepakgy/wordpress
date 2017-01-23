@@ -1,0 +1,53 @@
+0000.016 (R) [notice] Looking for db archive: file name: backup_2017-01-10-2042_Samurai_Tech_Corp_dede33d0a5e5-db.gz
+0000.016 (R) [notice] Archive is expected to be size: 887.1 KB: OK
+0000.016 (R) [notice] Looking for plugins archive: file name: backup_2017-01-10-2042_Samurai_Tech_Corp_dede33d0a5e5-plugins.zip
+0000.016 (R) [notice] Archive is expected to be size: 24556.2 KB: OK
+0000.016 (R) [notice] Looking for themes archive: file name: backup_2017-01-10-2042_Samurai_Tech_Corp_dede33d0a5e5-themes.zip
+0000.017 (R) [notice] Archive is expected to be size: 9165.6 KB: OK
+0000.017 (R) [notice] Looking for uploads archive: file name: backup_2017-01-10-2042_Samurai_Tech_Corp_dede33d0a5e5-uploads.zip
+0000.017 (R) [notice] Archive is expected to be size: 11127.9 KB: OK
+0000.017 (R) [notice] Looking for others archive: file name: backup_2017-01-10-2042_Samurai_Tech_Corp_dede33d0a5e5-others.zip
+0000.017 (R) [notice] Archive is expected to be size: 0.1 KB: OK
+0000.021 (R) [notice] Unpacking backup... (backup_2017-01-10-2042_Samurai_Tech_Corp_dede33d0a5e5-db.gz, 0.9 Mb)
+0000.022 (R) [notice] Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.027 (R) [notice] Enabling Maintenance mode&#8230;
+0000.028 (R) [notice] Backup of: http://54.236.87.96
+0000.042 (R) [notice] Content URL: http://54.236.87.96/wp-content
+0000.042 (R) [notice] Uploads URL: http://54.236.87.96/wp-content/uploads
+0000.043 (R) [notice] Old table prefix: wp_
+0000.043 (R) [notice] Site information: multisite = 0
+0000.044 (R) [notice] New table prefix: wp_
+0000.047 (R) [notice] Processing table (InnoDB):  wp_options
+0000.347 (R) [notice] Elegant themes theme builder plugin data detected: resetting temporary folder
+0000.348 (R) [notice] Processing table (InnoDB):  wp_users
+0000.356 (R) [notice] Processing table (InnoDB):  wp_usermeta
+0000.383 (R) [notice] Processing table (InnoDB):  wp_commentmeta
+0000.401 (R) [notice] Processing table (InnoDB):  wp_comments
+0000.415 (R) [notice] Processing table (InnoDB):  wp_links
+0000.421 (R) [notice] Processing table (InnoDB):  wp_postmeta
+0000.618 (R) [notice] Processing table (InnoDB):  wp_posts
+0001.423 (R) [notice] Database queries processed: 50 in 1.40 seconds
+0001.424 (R) [notice] Processing table (InnoDB):  wp_term_relationships
+0001.451 (R) [notice] Processing table (InnoDB):  wp_term_taxonomy
+0001.468 (R) [notice] Processing table (InnoDB):  wp_termmeta
+0001.486 (R) [notice] Processing table (InnoDB):  wp_terms
+0001.520 (R) [notice] Processing table (InnoDB):  wp_wpdatacharts
+0001.532 (R) [notice] Processing table (InnoDB):  wp_wpdatatables
+0001.540 (R) [notice] Processing table (InnoDB):  wp_wpdatatables_columns
+0001.545 (R) [notice] Finished: lines processed: 71 in 1.52 seconds
+0001.546 (R) [notice] Cleaning up rubbish...
+0001.553 (R) [notice] Unpacking backup... (backup_2017-01-10-2042_Samurai_Tech_Corp_dede33d0a5e5-plugins.zip, 24 Mb)
+0002.657 (R) [notice] Moving old data out of the way...
+0002.720 (R) [notice] Moving unpacked backup into place...
+0003.024 (R) [notice] Cleaning up rubbish...
+0003.028 (R) [notice] Unpacking backup... (backup_2017-01-10-2042_Samurai_Tech_Corp_dede33d0a5e5-themes.zip, 9 Mb)
+0003.262 (R) [notice] Moving old data out of the way...
+0003.364 (R) [notice] Moving unpacked backup into place...
+0003.400 (R) [notice] Cleaning up rubbish...
+0003.404 (R) [notice] Unpacking backup... (backup_2017-01-10-2042_Samurai_Tech_Corp_dede33d0a5e5-uploads.zip, 10.9 Mb)
+0003.474 (R) [notice] Moving old data out of the way...
+0003.474 (R) [notice] Moving unpacked backup into place...
+0003.479 (R) [notice] Cleaning up rubbish...
+0003.482 (R) [notice] Unpacking backup... (backup_2017-01-10-2042_Samurai_Tech_Corp_dede33d0a5e5-others.zip, 0 Mb)
+0003.482 (R) [notice] Cleaning up rubbish...
+0003.498 (R) [notice] Restore successful!
